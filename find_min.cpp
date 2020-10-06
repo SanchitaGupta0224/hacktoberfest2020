@@ -18,9 +18,8 @@ int main()
             min = arr[i];
         }
         else
-        {
-            min = min;
-        }
+            continue;
+    
     }
     cout<<min;
     return 0;
